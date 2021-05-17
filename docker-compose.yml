@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - "/media/selmo/WINxLINUX/Codes/Web-Demo-20210517-Flask/web:/code"
+    environment: 
+      FLASK_ENV: development
