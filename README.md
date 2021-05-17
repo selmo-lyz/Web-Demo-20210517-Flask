@@ -1,3 +1,3 @@
 # Web
 
-A website for practicing Flask.
+A website for practicing Flask and Docker.
