@@ -1,13 +1,116 @@
-{% extends "base.html" %}
+{% extends "base-header.html" %}
 {% block body %}
-<div class="row">
-  <div class="col">
-    <h1>{{name}}, Welcome. This is Home Page</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ducimus eveniet laudantium voluptatem labore, atque perferendis reiciendis quas ipsam a est assumenda eos distinctio molestiae nam itaque, cum voluptates eligendi.</p>
+<!-- News Section -->
+<section class="py-5">
+  <h1 class="mb-4">News</h1>
+  <div class="container">
+    <div class="news-tb">
+      <div class="news-tb-row row">
+        <div class="news-tb-col-1 col-lg-2 mb-4 mb-lg-0">
+          <div class="news-title">
+            Title 001
+          </div>
+          <div class="news-date">
+            2021.08.09
+          </div>
+        </div>
+        <div class="news-tb-col-2 col-lg-9 mb-4 mb-lg-0">
+          <div class="news-desc">
+            潘冠廷同學參與台灣化學工程學會六十四週年年會暨科技部化學工程學門成果發表會榮獲學生壁報論文競賽熱力與界面工程組傑出論文獎
+          </div>
+        </div>
+      </div>
+      <div class="news-tb-row row">
+        <div class="news-tb-col-1 col-lg-2 mb-4 mb-lg-0">
+          <div class="news-title">
+            Title 002
+          </div>
+          <div class="news-date">
+            2019.08.10
+          </div>
+        </div>
+        <div class="news-tb-col-2 col-lg-9 mb-4 mb-lg-0">
+          <div class="news-desc">
+            吳聿文同學參與台灣化學工程學會六十四週年年會暨科技部化學工程學門成果發表會榮獲學生英語演講競賽組佳作論文獎
+          </div>
+        </div>
+      </div>
+      <div class="news-tb-row row">
+        <div class="news-tb-col-1 col-lg-2 mb-4 mb-lg-0">
+          <div class="news-title">
+            Title 003
+          </div>
+          <div class="news-date">
+            2021.10.10
+          </div>
+        </div>
+        <div class="news-tb-col-2 col-lg-9 mb-4 mb-lg-0">
+          <div class="news-desc">
+            Description DescriptionDescription Description Description Descri ptionDescription Descri ptionDescription
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col">
-    <h1>This is {{name}}'s first Page</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo maxime culpa, iure, minima ducimus magni non hic similique tempore impedit necessitatibus eum! Sunt adipisci porro aperiam fugit magnam delectus.</p>
+</section>
+<hr class="my-0" />
+<!-- Features Section-->
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="mb-4">Research Topic</h1>
+        Theoretical modeling provides insights into the fundamentals of 
+        many complex systems ranging from organic‒inorganic hybrid 
+        materials to biological fluids. 
+        A suitably chosen model description that captures the essential 
+        physics of the system in conjunction with efficient multiscale 
+        modeling techniques that incorporates the physical laws relevant 
+        to the scales of interest can guide the materials design for 
+        a variety of innovations. Making use of classical 
+        density-functional theory, generalized Langevin dynamics, 
+        and continuum or molecular modeling, my group will answer basic 
+        questions in order to gain both qualitative and quantitative 
+        understanding regarding the equilibrium and dynamical 
+        properties of complex systems in engineering nanomedicine 
+        and materials science applications.
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded" src="https://via.placeholder.com/700x450" alt="..." />
+      </div>
+    </div>
   </div>
-</div>
+</section>
+<hr class="my-0" />
+<!-- Page Content-->
+<section class="py-5">
+  <div class="container">
+    <h2 class="mb-4">Topics</h2>
+    <!-- Marketing Icons Section-->
+    <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="card h-100">
+                <h4 class="card-header">Card Title</h4>
+                <div class="card-body"><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p></div>
+                <div class="card-footer"><a class="btn btn-primary" href="#!">Learn More</a></div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="card h-100">
+                <h4 class="card-header">Card Title</h4>
+                <div class="card-body"><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p></div>
+                <div class="card-footer"><a class="btn btn-primary" href="#!">Learn More</a></div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card h-100">
+                <h4 class="card-header">Card Title</h4>
+                <div class="card-body"><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p></div>
+                <div class="card-footer"><a class="btn btn-primary" href="#!">Learn More</a></div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<hr class="my-0" />
 {% endblock %}

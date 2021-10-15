@@ -1,10 +1,12 @@
 version: "3.3"
 services:
   web:
-    build: .
+    build: ./
+    container_name: flask-LabWeb
     ports:
       - "5000:5000"
+    working_dir: /code
     volumes:
-      - "/media/selmo/WINxLINUX/Codes/Web-Demo-20210517-Flask/web:/code"
+      - //f/codes/Web-Demo-20210517-Flask/web:/code
     environment: 
       FLASK_ENV: development
