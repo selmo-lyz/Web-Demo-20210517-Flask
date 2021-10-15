@@ -4,7 +4,11 @@
     
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta name="description" content="This website is build with flask. Please learn how to use flask if you want to change it." />
+<meta name="description" content=
+  "Using Modern Business - Start Bootstrap Template. 
+   https://github.com/StartBootstrap/startbootstrap-modern-business
+   This website is build with flask. 
+   Please learn how to use flask if you want to change it." />
 <meta name="author" content="selmo-lyz" />
 <title>Complex Fluid Theory Laboratory</title>
 <!-- Favicon-->
@@ -28,7 +32,13 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="research">Research</a></li>
-        <li class="nav-item"><a class="nav-link" href="people">People</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">People</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+            <a class="dropdown-item" href="people">People</a>
+            <a class="dropdown-item" href="alumni">Alumni</a>
+          </div>
+        </li>
         <li class="nav-item"><a class="nav-link" href="publication">Publication</a></li>
         <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
       </ul>
@@ -190,7 +200,7 @@
     </div>
     <!-- footer 2 -->
     <p class="m-0 text-center text-white">
-      Copyright © 2019 Complex Fluid Theory Laboratory. All rights reserved
+      Copyright 2013-2021 Start Bootstrap LLC. Code released under the MIT license.
     </p>
   </div>
 </footer>

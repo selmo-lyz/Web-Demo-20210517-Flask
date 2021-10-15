@@ -4,7 +4,11 @@
     
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta name="description" content="This website is build with flask. Please learn how to use flask if you want to change it." />
+<meta name="description" content=
+  "Using Modern Business - Start Bootstrap Template. 
+   https://github.com/StartBootstrap/startbootstrap-modern-business
+   This website is build with flask. 
+   Please learn how to use flask if you want to change it." />
 <meta name="author" content="selmo-lyz" />
 <title>Complex Fluid Theory Laboratory</title>
 <!-- Favicon-->
@@ -28,7 +32,13 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="research">Research</a></li>
-        <li class="nav-item"><a class="nav-link" href="people">People</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">People</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+            <a class="dropdown-item" href="people">People</a>
+            <a class="dropdown-item" href="alumni">Alumni</a>
+          </div>
+        </li>
         <li class="nav-item"><a class="nav-link" href="publication">Publication</a></li>
         <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
       </ul>
@@ -50,18 +60,16 @@
         <img src="../static/img/people/professor.jpg" class="w-100" alt="professor picture">
       </div>
       <div class="col-xs-6 col-md-7 col-lg-7 col-xl-6">
-        <h3 class="mb-4">Hsiu-Yu Yu</h3>
+        <h2 class="mb-4">Hsiu-Yu Yu</h2>
         <p>Assistant Professor</p>
         <p>Department of Chemical Engineering</p>
         <p>National Taiwan University</p>
-        <p></p>
-        <p>ORCID:0000-0000-0000-0000</p>
-        <p>Google Scholar:</p>
-        <h5 class="mb-4">Education:</h5>
+        <p>ORCID : 0000-0000-0000-0000</p>
+        <h3 class="mb-4">Education:</h3>
         <p>B.S. Ch.E., National Taiwan University, Taiwan 2004</p>
         <p>M.S. Ch.E., National Taiwan University, Taiwan 2006</p>
         <p>Ph.D. Ch.E., Cornell University, USA 2012</p>
-        <h5 class="mb-4">Experience:</h5>
+        <h3 class="mb-4">Experience:</h3>
         <p>Postdoctoral Associate, Cornell University, USA 2012</p>
         <p>Postdoctoral Researcher, University of Pennsylvania, USA 2012-2016</p>
       </div>
@@ -69,90 +77,138 @@
   </div>
 </section>
 <hr class="my-3" />
-<!-- Members Section-->
-<section class="py-5 bg-white">
+<!-- Graduate Section-->
+<section class="py-3 bg-light">
   <div class="container">
-    <h2 class="mb-4">Members</h2>
+    <h2 class="mb-4">Graduate</h2>
     <div class="row">
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card h-100">
-          <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
           <div class="card-body">
-            <h4 class="card-title"><a href="#!">Project One</a></h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card h-100">
-          <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
           <div class="card-body">
-            <h4 class="card-title"><a href="#!">Project One</a></h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+              <h4 class="card-title">Team Member</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card h-100">
-          <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
           <div class="card-body">
-            <h4 class="card-title"><a href="#!">Project One</a></h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card h-100">
-          <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
           <div class="card-body">
-            <h4 class="card-title"><a href="#!">Project One</a></h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+          </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+          </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+          </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<hr class="my-3" />
-<!-- Alumni Section-->
-<section class="py-5 bg-light">
+<!-- Undergraduate Section-->
+<section class="py-3 bg-light">
   <div class="container">
-    <h2 class="mb-4">Alumni</h2>
+    <h2 class="mb-4">Undergraduate</h2>
     <div class="row">
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card h-100">
-          <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
           <div class="card-body">
-            <h4 class="card-title"><a href="#!">Project One</a></h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card h-100">
-          <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
           <div class="card-body">
-            <h4 class="card-title"><a href="#!">Project One</a></h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+              <h4 class="card-title">Team Member</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card h-100">
-          <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
           <div class="card-body">
-            <h4 class="card-title"><a href="#!">Project One</a></h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card h-100">
-          <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
           <div class="card-body">
-            <h4 class="card-title"><a href="#!">Project One</a></h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
         </div>
       </div>
     </div>
@@ -209,7 +265,7 @@
     </div>
     <!-- footer 2 -->
     <p class="m-0 text-center text-white">
-      Copyright © 2019 Complex Fluid Theory Laboratory. All rights reserved
+      Copyright 2013-2021 Start Bootstrap LLC. Code released under the MIT license.
     </p>
   </div>
 </footer>

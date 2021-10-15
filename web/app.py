@@ -14,6 +14,10 @@ def research():
 def people():
     return render_template('people.html')
 
+@app.route("/alumni")
+def alumni():
+    return render_template('alumni.html')
+
 @app.route("/publication")
 def publication():
     return render_template('publication.html')

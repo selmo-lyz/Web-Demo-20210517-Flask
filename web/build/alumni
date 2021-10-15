@@ -51,49 +51,67 @@
     
     <div class="container">
       
-<section class="py-5">
-  <h1 class="mb-4">Contact</h1>
+<!-- Alumni Section-->
+<section class="py-5 bg-white">
   <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-xs-6 col-md-5 col-lg-5 col-xl-4">
-        <!-- Professor -->
-        <h2 class="mb-3"> Prof. Hsiu-Yu Yu </h2>
-        <span class="">
-          <h5>Email:</h5>
-          <p>hsiuyuyu@ntu.edu.tw</p>
-          <h5>Office Phone:</h5>
-          <p>+886-2-3366-3036</p>
-          <h5>Fax:</h5>
-          <p>+886-2-2362-3040</p>
-          <h5>Address:</h5>
-          <span>Department of Chemical Engineering,
-          National Taiwan University,
-          No. 1, Sec. 4, Roosevelt Rd.
-          Taipei 10617, Taiwan (R.O.C.)</span>
-        <hr class="my-3"/>
-        <!-- Laboratory -->
-        <h2 class="mb-4"> Laboratory </h2>
-        <span class="">
-          <h5>Lab Phone:</h5>
-          <p>+886-2-3366-3054</p>
-          <h5>Address:</h5>
-          <span>College of Engineering R208,
-          National Taiwan University,
-          No. 1, Sec. 4, Roosevelt Rd.
-          Taipei 10617, Taiwan (R.O.C.)</span>
-        </span>
+    <h1 class="mb-4">Alumni</h1>
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+          </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
+        </div>
       </div>
-      <div class="col-xs-6 col-md-7 col-lg-7 col-xl-6 margin-items">
-        <!--Google map-->
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.448707441658!2d121.54062761432343!3d25.01884214505443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa25d62fffff%3A0x8de293c92c3654c6!2z5ZyL56uL5Y-w54Gj5aSn5a246YSt5rGf5qiT!5e0!3m2!1szh-TW!2stw!4v1633767766310!5m2!1szh-TW!2stw" 
-          width="100%" height="500rem" 
-          style="border:0;" 
-          allowfullscreen="" 
-          loading="lazy">
-        </iframe>
-        <!--Google Maps-->
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
+          <div class="card-body">
+              <h4 class="card-title">Team Member</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+          </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
+        </div>
       </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+          </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+          </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="https://via.placeholder.com/750x450" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Team Member</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+          </div>
+          <div class="card-footer"><a href="#!">name@example.com</a></div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
