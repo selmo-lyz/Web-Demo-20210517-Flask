@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content=
+  "Using Modern Business - Start Bootstrap Template. 
+   https://github.com/StartBootstrap/startbootstrap-modern-business
+   This website is build with flask. 
+   Please learn how to use flask if you want to change it." />
+<meta name="author" content="selmo-lyz" />
+<title>Complex Fluid Theory Laboratory</title>
+<!-- Favicon-->
+<link rel="icon" type="image/x-icon" href="../static/img/favicon.ico" />
+<!-- Font Awesome icons (free version)-->
+<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="../static/css/styles.css" rel="stylesheet" />
+
+  </head>
+  <body>
+    
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img class="navbar-brand-pic" src="../static/img/logo_ntu.png">
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="research">Research</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">People</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+            <a class="dropdown-item" href="people">People</a>
+            <a class="dropdown-item" href="alumni">Alumni</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="publication">Publication</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="placeholder_navbar"></div>
+
+
+    
+    <div class="container">
+      
+<section class="py-5">
+  <h1 class="mb-4">Contact</h1>
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-xs-6 col-md-5 col-lg-5 col-xl-4">
+        <!-- Professor -->
+        <h2 class="mb-4"> Prof. Hsiu-Yu Yu </h2>
+        <span class="">
+          <h5>Email:</h5>
+          hsiuyuyu@ntu.edu.tw
+          <h5>Office Phone:</h5>
+          +886-2-3366-3036
+          <h5>Fax:</h5>
+          +886-2-2362-3040
+          <h5>Address:</h5>
+          Department of Chemical Engineering,
+          National Taiwan University,
+          No. 1, Sec. 4, Roosevelt Rd.
+          Taipei 10617, TaiwanfR.O.C.)
+        </span>
+        <hr class="my-3" />
+        <!-- Laboratory -->
+        <h2 class="mb-4"> Laboratory </h2>
+        <span class="">
+          <h5>Lab Phone:</h5>
+          +886-2-3366-3054
+          <h5>Address:</h5>
+          College of Engineering R208,
+          National Taiwan University,
+          No. 1, Sec. 4, Roosevelt Rd.
+          Taipei 10617, Taiwan(R.O.C-)
+        </span>
+        <hr class="my-3" />
+      </div>
+      <div class="col-xs-6 col-md-7 col-lg-7 col-xl-6 margin-items">
+        <!--Google map-->
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.448707441658!2d121.54062761432343!3d25.01884214505443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa25d62fffff%3A0x8de293c92c3654c6!2z5ZyL56uL5Y-w54Gj5aSn5a246YSt5rGf5qiT!5e0!3m2!1szh-TW!2stw!4v1633767766310!5m2!1szh-TW!2stw" 
+          width="100%" height="500rem" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+        <!--Google Maps-->
+      </div>
+  </div>
+</section>
+
+    </div>
+    
+    
+<!-- Footer-->
+<footer class="py-5 bg-footer">
+  <div class="container">
+    <!-- footer 1 -->
+    <div class="row">
+      <!-- column 1 -->
+      <div class="col-xs-6 col-sm-12 col-md-12 col-lg-4 info-brand">
+        <div class="info">
+          <img src="../static/img/logo_footer.png" class="w-100" alt="National Taiwan University Chemical Engineering">
+        </div>
+      </div>
+      <!-- column 2 -->
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+        <div class="info">
+          <img src="../static/img/icon/address.png" alt="" class="info-icon">
+          <p>
+            Address:
+            <br>Department of Chemical Engineering,
+            <br>National Taiwan University,
+            <br>No. 1, Sec. 4, Roosevelt Rd.
+            <br>Taipei 10617, Taiwan(R.O.C.)
+          </p>
+        </div>
+      </div>
+      <!-- column 3 -->
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+        <div class="info">
+          <img src="../static/img/icon/phone.png" alt="" class="info-icon">
+          <p>Office Phone: +886-2-3366-3036</p>
+        </div>
+        <div class="info">
+          <img src="../static/img/icon/fax.png" alt="" class="info-icon">
+          <p>Fax: +886-2-2362-3040</p>
+        </div>
+        <div class="info">
+          <img src="../static/img/icon/message.png" alt="Email" class="info-icon">
+          <p>Email: hsiuyuyu@ntu.edu.tw</p>
+        </div>
+        <div class="info">
+          <img src="../static/img/icon/phone.png" alt="Lab Phone" class="info-icon">
+          <p>Lab Phone: +886-2-3366-3054</p>
+        </div>
+      </div>
+    </div>
+    <!-- footer 2 -->
+    <p class="m-0 text-center text-white">
+      Copyright 2013-2021 Start Bootstrap LLC. Code released under the MIT license.
+    </p>
+  </div>
+</footer>
+
+
+    
+<!-- Bootstrap core JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+
+  </body>
+</html>
